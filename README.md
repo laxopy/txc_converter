@@ -31,10 +31,10 @@ Follow these steps to set up and run the project:
    remotes::install_github("ITSLeeds/UK2GTFS")
    ```
 
-4. Place your TransXChange file in the `data/` directory and name it `archivo_transxchange.zip`.
+4. Place your TransXChange file in the `data/` directory and name it `TxC.zip`.
 
 5. Run the script:
-   Open `scripts/convertir_txc_a_gtfs.R` in RStudio and run the script. The GTFS file will be generated in the `output/` directory as `new_gtfs.zip`.
+   Open `scripts/convert_txc_to_gtfs.R` in RStudio and run the script. The GTFS file will be generated in the `output/` directory as `new_gtfs.zip`.
 
 ## Credits
 This project uses the R package **[`UK2GTFS`](https://itsleeds.github.io/UK2GTFS/)** developed by the [ITS Leeds team](https://its.leeds.ac.uk/), part of the University of Leeds. All credit for the TransXChange-to-GTFS conversion logic goes to the original authors of the package.
